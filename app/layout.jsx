@@ -1,7 +1,17 @@
-import { Inter } from "next/font/google";
+import localFont from "next/font/local";
+
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const font = localFont({
+  src: [
+    {
+      path: "../public/font/YekanBakhMedium.woff",
+      style: "normal",
+    }
+  ]
+})
+
+
 
 export const metadata = {
   title: "rvanafzar",
@@ -11,7 +21,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="fa" dir="rtl">
-      <body className={inter.className}>{children}</body>
+      <body className={font.className}>{children}</body>
     </html>
   );
 }
