@@ -5,7 +5,7 @@ import "./globals.css";
 const font = localFont({
   src: [
     {
-      path: "../public/font/YekanBakhMedium.woff",
+      path: "../public/font/bahij_roya_irfont.ttf",
       style: "normal",
     }
   ]

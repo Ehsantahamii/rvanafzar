@@ -25,7 +25,7 @@ const Choice = () => {
     <div className="choice w-full mt-[61px]">
       {/* title choice */}
       <div className="title_choice flex justify-center items-center">
-        <h1 className="text-[36px] text-[#303030]">دلایل انتخاب ما</h1>
+        <h1 className="text-[30px] md:text-[36px] text-[#303030]">دلایل انتخاب ما</h1>
       </div>
       {/* content choice */}
       <div className=" flex flex-col  gap-5 md:flex-wrap md:flex-row mt-8">
@@ -35,7 +35,7 @@ const Choice = () => {
             className="content_choice flex flex-col justify-center items-center w-[375px] h-[340px] m-auto max-md:w-[95%]"
           >
             <Image src={index.img} width={175} height={155} />
-            <p className="text-justify text-[#fff] text-[14px] w-[336px] max-md:px-3  max-md:w-full mt-8">
+            <p className="text-justify text-[#fff] text-[16px] w-[336px] max-md:px-3  max-md:w-full mt-8">
               {index.caption}
             </p>
           </div>
@@ -44,18 +44,18 @@ const Choice = () => {
       {/* caption choice */}
       <div className="caption_choice flex flex-col px-5 mt-[30px]">
         <div className="title_caption-choice">
-          <h1 className="text-[17px] font-bold md:text-[36px] text-[#303030] text-justify ">
+          <h1 className="text-[22px] font-bold md:text-[36px] text-[#303030] text-justify ">
             مهارت‌هایی که تست شخصیت شناسی و تست روانشناسی شخصیت نمایان می‌کنند
           </h1>
         </div>
         <div className="content_caption-choice text-justify mt-10">
-          <p className="text-[17px] md:text-[20px]">
+          <p className="text-[19px] md:text-[24px]">
             تست های شخصیت شناسی به‌همراه تست خودشناسی و تست روانشناسی می‌توانند
             میزان تسلط متقاضیان یک شغل را به مهارت‌ها و استعدادهای لازم برای
             استخدام در یک جایگاه شغلی و انطباق میزان مهارت متقاضی با
             نیازمندی‌های جایگاه شغلی را مشخص کنند.
           </p>
-          <p className="text-[17px] md:text-[20px] mt-1">
+          <p className="text-[19px] md:text-[24px] mt-1">
             تصمیم‌گیری، مسئولیت‌پذیری، محاسبات پیچیده، کمال‌گرایی، پیروی از
             ساختار، مدیریت و رهبری، کمک‌رسانی و... بسیاری دیگر از مهارت‌ها و
             ویژگی‌های اخلاقی مختلف، از جمله خصوصیت‌ها و ویژگی‌هایی هستند که به
