@@ -16,6 +16,7 @@ html {
 
 body {
   margin: 0;
+  direction: rtl;
   scroll-behavior: smooth !important;
   width: 100% !important;
   overflow-x: hidden !important;
@@ -23,8 +24,17 @@ body {
   font-weight: 300;
   overflow-x: hidden;
 }
-main{
+main {
   width: 95vw;
   max-width: 1280px;
   margin: 0 auto;
+}
+
+.bg-gradient-green-to-darkblue-color {
+  background: linear-gradient(
+    to bottom right,
+    #19767e,
+    #25a7ac,
+    #237679
+  ); 
 }
