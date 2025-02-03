@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import './Footer.css'
 const Footer = () => {
   return (
     <div className="footer border-t-4 border-[#25A7AC] mt-[30px]">
