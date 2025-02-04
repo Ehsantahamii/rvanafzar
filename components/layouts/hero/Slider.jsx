@@ -11,6 +11,7 @@ const Slider = () => {
             <Swiper
                 spaceBetween={50}
                 slidesPerView={1}
+                autoplay={{ delay: 3000 }}
                 pagination={{ type: "bullets", clickable: true }}
                 loop={true}
                 modules={[Autoplay, Pagination]}
@@ -47,7 +48,7 @@ const Slider = () => {
                                 </li>
                             </ul>
                             <div>
-                                <img src="/img/soft logo.png" alt="logo" className="w-[84px] h-[80px] md:w-[300px] md:h-[300px] mx-auto" />
+                                <img src="/img/neo.jpg" alt="logo" className="w-[84px] h-[80px] md:w-[250px] md:h-[250px] mx-auto" />
                             </div>
 
                         </div>
@@ -92,7 +93,7 @@ const Slider = () => {
                                 </li>
                             </ul>
                             <div>
-                                <img src="/img/soft logo.png" alt="logo" className="w-[84px] h-[80px] md:w-[300px] md:h-[300px] mx-auto" />
+                                <img src="/img/neo.jpg" alt="logo" className="w-[84px] h-[80px] md:w-[250px] md:h-[250px] mx-auto" />
                             </div>
 
                         </div>
@@ -137,7 +138,7 @@ const Slider = () => {
                                 </li>
                             </ul>
                             <div>
-                                <img src="/img/soft logo.png" alt="logo" className="w-[84px] h-[80px] md:w-[300px] md:h-[300px] mx-auto" />
+                            <img src="/img/neo.jpg" alt="logo" className="w-[84px] h-[80px] md:w-[250px] md:h-[250px] mx-auto" />
                             </div>
 
                         </div>

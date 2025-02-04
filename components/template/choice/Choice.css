@@ -1,19 +1,25 @@
-.choice .title_choice h1::before{
-    content: url('/img/Group1.png');
-    position: absolute;
-    width: 55px;
-    height: 30px;
-    margin: 0 -62px;
+.choice .title_choice h1::before,
+.products-slider-container h1::before {
+  content: url("/img/Group1.png");
+  position: absolute;
+  width: 55px;
+  height: 30px;
+  margin: 0 -62px;
 }
-.choice .title_choice h1::after{
-    content: url('/img/Group.png');
-    position: absolute;
-    width: 55px;
-    height: 30px;
-    margin: 0 8px;
+.choice .title_choice h1::after,
+.products-slider-container h1::after {
+  content: url("/img/Group.png");
+  position: absolute;
+  width: 55px;
+  height: 30px;
+  margin: 0 8px;
 }
-.content_choice{
-    background: linear-gradient(to bottom right, #19767E, #25A7AC , #237679); /* گرادیان از سبز-آبی به آبی تیره */
-    border-radius: 20px;
-    
+.content_choice {
+  background: linear-gradient(
+    to bottom right,
+    #19767e,
+    #25a7ac,
+    #237679
+  ); /* گرادیان از سبز-آبی به آبی تیره */
+  border-radius: 20px;
 }
