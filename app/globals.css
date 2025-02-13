@@ -15,12 +15,12 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 0 auto;
   direction: rtl;
   scroll-behavior: smooth !important;
   width: 100% !important;
   overflow-x: hidden !important;
-  max-width: 100% !important;
+  max-width: 1280px;
   font-weight: 300;
   overflow-x: hidden;
 }

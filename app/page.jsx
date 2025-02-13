@@ -8,7 +8,6 @@ import Vector from "@/components/template/vector-page/Vector";
 export default function Home() {
   return (
     <main>
-      <Navbar />
       <SliderModule />
       <Vector />
       <Choice />

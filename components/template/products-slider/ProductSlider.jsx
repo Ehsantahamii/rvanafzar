@@ -5,6 +5,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "../choice/Choice.css"
+import Link from "next/link";
 
 const ProductSlider = () => {
     return (
@@ -48,9 +49,9 @@ const ProductSlider = () => {
                                 <h3>
                                     NEO Personality Inventory (NEO-PI-R)
                                 </h3>
-                                <button className="w-[150px] lg:w-[250px] rounded-xl px-4 py-3 my-4 text-[#000] bg-white">
+                                <Link href='/product/neo' className="w-[150px] lg:w-[250px] rounded-xl px-4 py-3 my-4 text-[#000] bg-white">
                                     جزئیات بیشتر
-                                </button>
+                                </Link>
                             </div>
                         </div>
                     </div>

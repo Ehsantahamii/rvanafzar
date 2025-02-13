@@ -1,15 +1,17 @@
-import Image from "next/image"
+"use client"
 
 const Navbar = () => {
   return (
-    <div className="navbar flex justify-between items-center md:my-[20px]">
+    <nav className="navbar flex justify-between items-center max-w-[90vw] mx-auto md:my-[20px]">
       <div className="logo_navbar">
-        <Image src="/img/logo.svg" width={100} height={100} className="w-[80px] md:w-[190px] h-[79px]" />
+        <img src="/img/logo.svg" width={100} height={100} className="w-[80px] md:w-[190px] h-[79px]" />
       </div>
       <div className="phone_navbar">
-        <span className="text-[10px] md:text-[26px] font-bold">09542354468</span>
+        <span className="text-[10px] md:text-[26px] font-bold">
+          ۰۹۵۴۲۳۵۴۴۶۸
+        </span>
       </div>
-    </div>
+    </nav>
   )
 }
 
