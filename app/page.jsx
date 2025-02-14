@@ -1,3 +1,4 @@
+import AboutUs from "@/components/layouts/about-us/AboutUs";
 import Footer from "@/components/layouts/footer/Footer";
 import SliderModule from "@/components/layouts/hero/Slider";
 import Navbar from "@/components/layouts/navbar/Navbar";
@@ -10,7 +11,8 @@ export default function Home() {
     <main>
       <SliderModule />
       <Vector />
-      <Choice />
+      {/* <Choice /> */}
+      <AboutUs/>
       <ProductSlider />
       <Footer />
     </main>
