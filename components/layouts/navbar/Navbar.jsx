@@ -7,7 +7,7 @@ const Navbar = () => {
         <img src="/img/logo.svg" width={100} height={100} className="w-[80px] md:w-[190px] h-[79px]" />
       </div>
       <div className="phone_navbar">
-        <span className="text-[10px] md:text-[26px] font-bold">
+        <span className="text-[16px] md:text-[26px] font-bold">
           ۰۹۵۴۲۳۵۴۴۶۸
         </span>
       </div>

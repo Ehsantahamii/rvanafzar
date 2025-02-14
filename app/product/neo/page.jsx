@@ -10,7 +10,7 @@ const page = () => {
     return (
         <section className='flex flex-col  mx-auto lg:max-w-[90%] pt-8 gap-8 lg:gap-16 lg:flex-row lg:justify-between' >
             <aside className='w-[90vw] mx-auto lg:w-1/4 flex flex-col items-center p-4 lg:h-screen lg:max-h-[480px] rounded-lg shadow text-center'>
-                <img src="/img/neo.jpg" alt="" className='w-[90%] my-4 max-w-[150px] max-h-[150px] mx-auto' />
+                <img src="/img/neo.jpg" alt="NEO Personality Inventory" className='w-[90%] my-4 max-w-[150px] max-h-[150px] mx-auto' />
                 <h2>
                     NEO Personality Inventory (NEO-PI-R)
                 </h2>
