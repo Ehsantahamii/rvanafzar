@@ -1,9 +1,8 @@
 import PriceFormat from "@/components/modules/price-format/PriceFormat";
-import Link from "next/link";
 
 export const metadata = {
-  title: "روان افزار |   پرسشنامه بالینی چند محوری میلون",
-  description: "  پرسشنامه بالینی چند محوری میلون",
+  title: "روان افزار | تیپ نمای مایرز-بریگز",
+  description: " تیپ نمای مایرز-بریگز  ",
 };
 
 const page = () => {
@@ -11,14 +10,14 @@ const page = () => {
     <section className="flex flex-col  mx-auto lg:max-w-[90%] pt-8 gap-8 lg:gap-16 lg:flex-row lg:justify-between">
       <aside className="w-[90vw] mx-auto lg:w-1/4 flex flex-col items-center p-4 lg:h-screen lg:max-h-[480px] rounded-lg shadow text-center">
         <img
-          src="/img/mcmi.jpg"
-          alt="Million Clinical Multi axial Inventory (MCMI-III)"
-          className="w-[90%] my-4 max-w-[150px] h-[100px] mx-auto"
+          src="/img/mbti1.JPG"
+          alt="Myers-Briggs Type Indicator (MBTI)"
+          className="w-[90%] my-4 max-w-[150px] max-h-[150px] mx-auto"
         />
-        <h2>Million Clinical Multi axial Inventory (MCMI-III)</h2>
-        <h3>پرسشنامه بالینی چند محوری میلون</h3>
+        <h2>Myers-Briggs Type Indicator (MBTI)</h2>
+        <h3>تیپ نمای مایرز-بریگز</h3>
         <div className="flex items-center justify-center gap-1 text-[1.2rem] py-2 my-4 bg-[#25a8acd5] text-center w-[170px] rounded-lg">
-          {PriceFormat("480000")}
+          {PriceFormat("380000")}
           <svg
             className="w-4 h-4 text-white"
             id="Layer_1"
@@ -38,13 +37,28 @@ const page = () => {
         </div>
       </aside>
       <div className="w-[90vw] mx-auto lg:w-3/4 p-8 lg:p-12 h-screen max-h-[480px] rounded-lg shadow">
-        <h1 className="font-semibold text-3xl pb-2 max-md:text-[20px] border-b-[1px]">
-          پرسشنامه بالینی چند محوری میلون
+        <h1 className="font-semibold text-3xl pb-2 border-b-[1px]">
+          تیپ نمای مایرز-بریگز
         </h1>
         <ul>
           <h3 className="text-2xl py-4">ویژگی های اختصاصی:</h3>
-          <li className="list-disc">تعامل مقیاسها </li>
-          <li className="list-disc">تفسیر پروفایل</li>
+          <li className="list-disc">
+            
+            توصیف 16 تیپ بر اساس کدهای 4 رقمی و دو رقمی
+          </li>
+          <li className="list-disc">
+            
+            دسته بندی آزمودنیها بر اساس تیپ و رجحانهای اصلی و کمکی
+          </li>
+          <li className="list-disc"> پروفایل و توصیف همزمان زوجینی</li>
+          <li className="list-disc"> جدول توافق زوجینی</li>
+          <li className="list-disc"> نقاط قوت و ضعف شغلی</li>
+          <li className="list-disc"> پرکاربرد ترین آزمون غیربالینی </li>
+          <li className="list-disc">
+            
+            مناسب برای مشاوره ازدواج, طلاق ، شغلی و مدیریتی
+          </li>
+          <li className="list-disc"> بدون نیاز به نمرات هنجاری</li>
         </ul>
         <p className="py-4 text-red-400">
           *توجه : جهت دریافت هریک از آزمون ها با شماره ۰۹۵۴۲۳۵۴۴۶۸ تماس حاصل
