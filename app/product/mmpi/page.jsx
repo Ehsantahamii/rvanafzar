@@ -11,7 +11,7 @@ const page = () => {
       <aside className="w-[90vw] mx-auto lg:w-1/4 flex flex-col items-center p-4 lg:h-screen lg:max-h-[480px] rounded-lg shadow text-center">
         <img
           src="/img/mmpi2.jpg"
-          alt=""
+          alt="Minnesota Multiphasic Personality Inventory-2 (MMPI-2)"
           className="w-[90%] my-4 max-w-[150px] h-[150px] mx-auto"
         />
         <h2>Minnesota Multiphasic Personality Inventory-2 (MMPI-2)</h2>

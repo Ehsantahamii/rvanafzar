@@ -1,9 +1,8 @@
 import PriceFormat from "@/components/modules/price-format/PriceFormat";
-import Link from "next/link";
 
 export const metadata = {
-  title: "روان افزار |   پرسشنامه بالینی چند محوری میلون",
-  description: "  پرسشنامه بالینی چند محوری میلون",
+  title: "روان افزار | پرسشنامه 16 عاملی شخصیت",
+  description: "پرسشنامه 16 عاملی شخصیت",
 };
 
 const page = () => {
@@ -11,14 +10,14 @@ const page = () => {
     <section className="flex flex-col  mx-auto lg:max-w-[90%] pt-8 gap-8 lg:gap-16 lg:flex-row lg:justify-between">
       <aside className="w-[90vw] mx-auto lg:w-1/4 flex flex-col items-center p-4 lg:h-screen lg:max-h-[480px] rounded-lg shadow text-center">
         <img
-          src="/img/mcmi.jpg"
-          alt="Million Clinical Multi axial Inventory (MCMI-III)"
-          className="w-[90%] my-4 max-w-[150px] h-[100px] mx-auto"
+          src="/img/16 Personality Factors (16PF).jpg"
+          alt="Personality Factors (16PF)"
+          className="w-[90%] my-4 max-w-[150px] max-h-[150px] mx-auto"
         />
-        <h2>Million Clinical Multi axial Inventory (MCMI-III)</h2>
-        <h3>پرسشنامه بالینی چند محوری میلون</h3>
+        <h2>16 Personality Factors (16PF)</h2>
+        <h3>پرسشنامه 16 عاملی شخصیت </h3>
         <div className="flex items-center justify-center gap-1 text-[1.2rem] py-2 my-4 bg-[#25a8acd5] text-center w-[170px] rounded-lg">
-          {PriceFormat("480000")}
+          {PriceFormat("280000")}
           <svg
             className="w-4 h-4 text-white"
             id="Layer_1"
@@ -38,13 +37,15 @@ const page = () => {
         </div>
       </aside>
       <div className="w-[90vw] mx-auto lg:w-3/4 p-8 lg:p-12 h-screen max-h-[480px] rounded-lg shadow">
-        <h1 className="font-semibold text-3xl pb-2 max-md:text-[20px] border-b-[1px]">
-          پرسشنامه بالینی چند محوری میلون
+        <h1 className="font-semibold text-3xl pb-2 border-b-[1px]">
+          پرسشنامه 16 عاملی شخصیت
         </h1>
         <ul>
           <h3 className="text-2xl py-4">ویژگی های اختصاصی:</h3>
+          <li className="list-disc">فاکتورهای مرتبه اول و دوم </li>
           <li className="list-disc">تعامل مقیاسها </li>
-          <li className="list-disc">تفسیر پروفایل</li>
+          <li className="list-disc"> تفسیر پروفایل </li>
+          <li className="list-disc">به روز آوری نرمهای آزمون </li>
         </ul>
         <p className="py-4 text-red-400">
           *توجه : جهت دریافت هریک از آزمون ها با شماره ۰۹۵۴۲۳۵۴۴۶۸ تماس حاصل
