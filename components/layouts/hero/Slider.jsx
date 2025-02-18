@@ -18,7 +18,7 @@ const Slider = () => {
 
             >
                 <SwiperSlide>
-                    <div className="bg-gradient-green-to-darkblue-color text-white w-full px-2 md:px-8 py-8 gap-8 rounded-2xl flex flex-col">
+                    <div className="bg-gradient-green-to-darkblue-color text-white w-full px-2 md:px-8 py-16 gap-8 rounded-2xl flex flex-col">
                         <div className="flex md:flex-row w-[80%] mx-auto justify-between mt-[5%] md:mb-8">
                             <p className="text-[10px] md:text-[36px] text-right">
                                 پرسشنامه شخصیتی نئو
@@ -63,7 +63,7 @@ const Slider = () => {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className="bg-gradient-green-to-darkblue-color text-white w-full px-2 md:px-8 py-8 gap-8 rounded-2xl flex flex-col">
+                    <div className="bg-gradient-green-to-darkblue-color text-white w-full px-2 md:px-8 py-16 gap-8 rounded-2xl flex flex-col">
                         <div className="flex md:flex-row w-[80%] mx-auto justify-between mt-[5%] md:mb-8">
                             <p className="text-[10px] md:text-[36px] text-right">
                                 پرسشنامه شخصیتی نئو
@@ -108,7 +108,7 @@ const Slider = () => {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className="bg-gradient-green-to-darkblue-color text-white w-full px-2 md:px-8 py-8 gap-8 rounded-2xl flex flex-col">
+                    <div className="bg-gradient-green-to-darkblue-color text-white w-full px-2 md:px-8 py-16 gap-8 rounded-2xl flex flex-col">
                         <div className="flex md:flex-row w-[80%] mx-auto justify-between mt-[5%] md:mb-8">
                             <p className="text-[10px] md:text-[36px] text-right">
                                 پرسشنامه شخصیتی نئو

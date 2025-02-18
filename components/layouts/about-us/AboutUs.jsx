@@ -2,7 +2,7 @@
 const AboutUs = () => {
     return (
         <>
-            <section className="flex my-8 flex-col items-center w-[90%] lg:flex-row mx-auto">
+            <section className="flex my-12 flex-col items-center w-[90%] lg:flex-row mx-auto">
                 <div className="w-[90%] lg:w-[50%] p-4">
                     <h2 className="text-[24px] lg:text-[32px] font-semibold">
                         چرا روان افزار؟
@@ -15,9 +15,9 @@ const AboutUs = () => {
                     <img src="/img/Psychology.svg" alt="psychology-vector" />
                 </div>
             </section>
-            <section className="flex my-8 flex-col items-center w-[90%] lg:flex-row mx-auto">
-                <div className="w-[90%] lg:w-[50%] p-4">
-                    <img src="/img/RAVAN-AFZAR.png" alt="psychology-vector" />
+            <section className="flex my-12 flex-col-reverse items-center w-[90%] lg:flex-row mx-auto">
+                <div className="w-[90%] lg:w-[50%] p-4 flex justify-center lg:justify-start">
+                    <img className="w-[250px] lg:w-auto" src="/img/RAVAN-AFZAR.png" alt="psychology-vector" />
                 </div>
                 <div className="w-[90%] lg:w-[50%] p-4">
                     <h2 className="text-[24px] lg:text-[32px] font-semibold">
@@ -29,18 +29,17 @@ const AboutUs = () => {
                     </p>
                 </div>
             </section>
-            <section className="flex my-8 flex-col items-center w-[90%] lg:flex-row mx-auto">
+            <section className="flex my-12 flex-col justify-enter items-center w-[90%] lg:flex-row mx-auto">
                 <div className="w-[90%] lg:w-[50%] p-4">
                     <h2 className="text-[24px] lg:text-[32px] font-semibold">
                         قیمت مناسب
                     </h2>
                     <p className="text-base lg:text-lg text-justify">
-                        در نرم افزارهای این موسسه، سعی شده است علاوه بر کارکرد عمومی نرم افزارها، مانند اجرا و نمره گذاری، ترسیم نیمرخ و نمودار، ذخیره و بازیابی پرونده ها و .... گامی فراتر گذاشته شود و نرم افزار جوابگوی اهداف پژوهشی و موقعیت های بالینی هم باشد. گزینه  دسته بندی ، این امکان را فراهم می سازد که کاربر بتواند آزمودنیهای خود را بر اساس نمرات مقیاسهای آزمون، با انعطاف بالا دسته بندی نموده و اسامی هر گروه را به تفکیک داشته باشد. یا در نرم افزار هوش هیجانی، علاوه بر تفسیر تمام مقیاسها، راهبردهای بهبود هم پیش بینی شده است که دستورالعمل هایی برای بهبود هوش هیجانی در نمرات متوسط و پایین ارائه می دهد. نمودار زوجی و ارزیابی پیشرفت درمان از دیگر قابلیت های پیش بینی شده هستند.
-
+                        با وجود قابلیت و امکانات مذکور، قیمت نرم افزارهای این موسسه،  نسبت به سایر موسسات و شرکت ها مناسب تر و مقرون به صرفه تر است.
                     </p>
                 </div>
-                <div className="w-[90%] lg:w-[50%] p-4 flex justify-end">
-                    <img src="/img/PRICE-VECTOR.png" alt="price-vector" />
+                <div className="w-[90%] lg:w-[50%] p-4 flex justify-center lg:justify-end">
+                    <img className="max-w-[200px] lg:max-w-[320px]" src="/img/PRICE-VECTOR.png" alt="price-vector" />
                 </div>
             </section>
         </>
