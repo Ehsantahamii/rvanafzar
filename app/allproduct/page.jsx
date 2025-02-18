@@ -59,7 +59,7 @@ const page = () => {
             <div className="flex justify-center w-full">
               <div className="flex flex-col text-base md:text-[24px] items-center">
                 <h2>پرسشنامه بالینی چند محوری میلون</h2>
-                <h3>Million Clinical Multi axial Inventory  (MCMI-III)</h3>
+                <h3>Million Clinical Multi axial Inventory (MCMI-III)</h3>
                 <Link
                   href="/product/mcmi"
                   className="w-[150px] lg:w-[250px] rounded-xl px-4 py-3 my-4 text-[#000] bg-white"
@@ -119,6 +119,44 @@ const page = () => {
                 <h3>Myers-Briggs Type Indicator (MBTI)</h3>
                 <Link
                   href="/product/mbti"
+                  className="w-[150px] lg:w-[250px] rounded-xl px-4 py-3 my-4 text-[#000] bg-white"
+                >
+                  جزئیات بیشتر
+                </Link>
+              </div>
+            </div>
+          </div>
+          <div className="bg-gradient-green-to-darkblue-color text-white text-center max-md:w-full w-[370px]  h-[370px] px-2 md:px-8 py-8 gap-8 rounded-2xl flex flex-col justify-center items-center">
+            <img
+              className="w-[120px] max-h-[150px] mx-auto"
+              src="/img/E.Q..JPG"
+              alt="Emotional Quotient Inventory (EQI)"
+            />
+            <div className="flex justify-center w-full">
+              <div className="flex flex-col text-base md:text-[24px] items-center">
+                <h2>پرسشنامه هوش هیجانی </h2>
+                <h3>Emotional Quotient Inventory (EQI)</h3>
+                <Link
+                  href="/product/eqi"
+                  className="w-[150px] lg:w-[250px] rounded-xl px-4 py-3 my-4 text-[#000] bg-white"
+                >
+                  جزئیات بیشتر
+                </Link>
+              </div>
+            </div>
+          </div>
+          <div className="bg-gradient-green-to-darkblue-color text-white text-center max-md:w-full w-[370px]  h-[370px] px-2 md:px-8 py-8 gap-8 rounded-2xl flex flex-col justify-center items-center">
+            <img
+              className="w-[120px] max-h-[150px] mx-auto"
+              src="/img/kcpt.jpg"
+              alt="Conner's Kiddie Continuous Performance Test (K-CPT2)"
+            />
+            <div className="flex justify-center w-full">
+              <div className="flex flex-col text-base md:text-[24px] items-center">
+                <h2>آزمون عملکرد پيوسته کانرز - فرم کودکان</h2>
+                <h3>Conner's Kiddie Continuous Performance Test (K-CPT2)</h3>
+                <Link
+                  href="/product/kcpt"
                   className="w-[150px] lg:w-[250px] rounded-xl px-4 py-3 my-4 text-[#000] bg-white"
                 >
                   جزئیات بیشتر
@@ -220,48 +258,10 @@ const page = () => {
                 </Link>
               </div>
             </div>
-          </div>
-          <div className="bg-gradient-green-to-darkblue-color text-white text-center max-md:w-full w-[370px]  h-[370px] px-2 md:px-8 py-8 gap-8 rounded-2xl flex flex-col justify-center items-center">
-            <img
-              className="w-[120px] max-h-[150px] mx-auto"
-              src="/img/Clinical Analysis Questionnaire (CAQ).jpg"
-              alt="NEO Personality Inventory"
-            />
-            <div className="flex justify-center w-full">
-              <div className="flex flex-col text-base md:text-[24px] items-center">
-                <h2>پرسشنامه تحلیل بالینی</h2>
-                <h3>Clinical Analysis Questionnaire (CAQ)</h3>
-                <Link
-                  href="/product/caq"
-                  className="w-[150px] lg:w-[250px] rounded-xl px-4 py-3 my-4 text-[#000] bg-white"
-                >
-                  جزئیات بیشتر
-                </Link>
-              </div>
-            </div>
-          </div>
-          <div className="bg-gradient-green-to-darkblue-color text-white text-center max-md:w-full w-[370px]  h-[370px] px-2 md:px-8 py-8 gap-8 rounded-2xl flex flex-col justify-center items-center">
-            <img
-              className="w-[120px] max-h-[150px] mx-auto"
-              src="/img/Clinical Analysis Questionnaire (CAQ).jpg"
-              alt="NEO Personality Inventory"
-            />
-            <div className="flex justify-center w-full">
-              <div className="flex flex-col text-base md:text-[24px] items-center">
-                <h2>پرسشنامه تحلیل بالینی</h2>
-                <h3>Clinical Analysis Questionnaire (CAQ)</h3>
-                <Link
-                  href="/product/caq"
-                  className="w-[150px] lg:w-[250px] rounded-xl px-4 py-3 my-4 text-[#000] bg-white"
-                >
-                  جزئیات بیشتر
-                </Link>
-              </div>
-            </div>
           </div> */}
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </main>
   );
 };
