@@ -164,64 +164,64 @@ const page = () => {
               </div>
             </div>
           </div>
+          <div className="bg-gradient-green-to-darkblue-color text-white text-center max-md:w-full w-[370px]  h-[370px] px-2 md:px-8 py-8 gap-8 rounded-2xl flex flex-col justify-center items-center">
+            <img
+              className="w-[120px] max-h-[150px] mx-auto"
+              src="/img/cpt3.bmp"
+              alt="Conner's Continuous Performance Test (CPT-3)"
+            />
+            <div className="flex justify-center w-full">
+              <div className="flex flex-col text-base md:text-[24px] items-center">
+                <h2>آزمون عملکرد پيوسته کانرز - فرم بزرگسالان</h2>
+                <h3>Conner's Continuous Performance Test (CPT-3)</h3>
+                <Link
+                  href="/product/cpt"
+                  className="w-[150px] lg:w-[250px] rounded-xl px-4 py-3 my-4 text-[#000] bg-white"
+                >
+                  جزئیات بیشتر
+                </Link>
+              </div>
+            </div>
+          </div>
+          <div className="bg-gradient-green-to-darkblue-color text-white text-center max-md:w-full w-[370px]  h-[370px] px-2 md:px-8 py-8 gap-8 rounded-2xl flex flex-col justify-center items-center">
+            <img
+              className="w-[120px] max-h-[150px] mx-auto"
+              src="/img/tova2.jpg"
+              alt="Test of Variables of Attention  (T.O.V.A)"
+            />
+            <div className="flex justify-center w-full">
+              <div className="flex flex-col text-base md:text-[24px] items-center">
+                <h2>آزمون متغیرهای توجه</h2>
+                <h3>Test of Variables of Attention  (T.O.V.A)</h3>
+                <Link
+                  href="/product/tova"
+                  className="w-[150px] lg:w-[250px] rounded-xl px-4 py-3 my-4 text-[#000] bg-white"
+                >
+                  جزئیات بیشتر
+                </Link>
+              </div>
+            </div>
+          </div>
+          <div className="bg-gradient-green-to-darkblue-color text-white text-center max-md:w-full w-[370px]  h-[370px] px-2 md:px-8 py-8 gap-8 rounded-2xl flex flex-col justify-center items-center">
+            <img
+              className="w-[120px] max-h-[150px] mx-auto"
+              src="/img/hanoi.jpg"
+              alt="Tower of Hanoi Test"
+            />
+            <div className="flex justify-center w-full">
+              <div className="flex flex-col text-base md:text-[24px] items-center">
+                <h2>آزمون برج هانوی</h2>
+                <h3>Tower of Hanoi Test</h3>
+                <Link
+                  href="/product/hanoi"
+                  className="w-[150px] lg:w-[250px] rounded-xl px-4 py-3 my-4 text-[#000] bg-white"
+                >
+                  جزئیات بیشتر
+                </Link>
+              </div>
+            </div>
+          </div>
           {/* <div className="bg-gradient-green-to-darkblue-color text-white text-center max-md:w-full w-[370px]  h-[370px] px-2 md:px-8 py-8 gap-8 rounded-2xl flex flex-col justify-center items-center">
-            <img
-              className="w-[120px] max-h-[150px] mx-auto"
-              src="/img/Clinical Analysis Questionnaire (CAQ).jpg"
-              alt="NEO Personality Inventory"
-            />
-            <div className="flex justify-center w-full">
-              <div className="flex flex-col text-base md:text-[24px] items-center">
-                <h2>پرسشنامه تحلیل بالینی</h2>
-                <h3>Clinical Analysis Questionnaire (CAQ)</h3>
-                <Link
-                  href="/product/caq"
-                  className="w-[150px] lg:w-[250px] rounded-xl px-4 py-3 my-4 text-[#000] bg-white"
-                >
-                  جزئیات بیشتر
-                </Link>
-              </div>
-            </div>
-          </div>
-          <div className="bg-gradient-green-to-darkblue-color text-white text-center max-md:w-full w-[370px]  h-[370px] px-2 md:px-8 py-8 gap-8 rounded-2xl flex flex-col justify-center items-center">
-            <img
-              className="w-[120px] max-h-[150px] mx-auto"
-              src="/img/Clinical Analysis Questionnaire (CAQ).jpg"
-              alt="NEO Personality Inventory"
-            />
-            <div className="flex justify-center w-full">
-              <div className="flex flex-col text-base md:text-[24px] items-center">
-                <h2>پرسشنامه تحلیل بالینی</h2>
-                <h3>Clinical Analysis Questionnaire (CAQ)</h3>
-                <Link
-                  href="/product/caq"
-                  className="w-[150px] lg:w-[250px] rounded-xl px-4 py-3 my-4 text-[#000] bg-white"
-                >
-                  جزئیات بیشتر
-                </Link>
-              </div>
-            </div>
-          </div>
-          <div className="bg-gradient-green-to-darkblue-color text-white text-center max-md:w-full w-[370px]  h-[370px] px-2 md:px-8 py-8 gap-8 rounded-2xl flex flex-col justify-center items-center">
-            <img
-              className="w-[120px] max-h-[150px] mx-auto"
-              src="/img/Clinical Analysis Questionnaire (CAQ).jpg"
-              alt="NEO Personality Inventory"
-            />
-            <div className="flex justify-center w-full">
-              <div className="flex flex-col text-base md:text-[24px] items-center">
-                <h2>پرسشنامه تحلیل بالینی</h2>
-                <h3>Clinical Analysis Questionnaire (CAQ)</h3>
-                <Link
-                  href="/product/caq"
-                  className="w-[150px] lg:w-[250px] rounded-xl px-4 py-3 my-4 text-[#000] bg-white"
-                >
-                  جزئیات بیشتر
-                </Link>
-              </div>
-            </div>
-          </div>
-          <div className="bg-gradient-green-to-darkblue-color text-white text-center max-md:w-full w-[370px]  h-[370px] px-2 md:px-8 py-8 gap-8 rounded-2xl flex flex-col justify-center items-center">
             <img
               className="w-[120px] max-h-[150px] mx-auto"
               src="/img/Clinical Analysis Questionnaire (CAQ).jpg"
